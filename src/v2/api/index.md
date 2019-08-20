@@ -611,9 +611,9 @@ type: api
     }
   })
   vm.aPlus   // => 2
-  vm.aPlus = 3
-  vm.a       // => 2
-  vm.aDouble // => 4
+  vm.aPlus = 2
+  vm.a       // => 1
+  vm.aDouble // => 2
   ```
 
 - **参考**：[计算属性](../guide/computed.html)
