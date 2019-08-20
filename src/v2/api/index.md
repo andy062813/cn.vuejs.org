@@ -611,9 +611,9 @@ type: api
     }
   })
   vm.aPlus   // => 2
-  vm.aPlus = 3
-  vm.a       // => 2
-  vm.aDouble // => 4
+  vm.aPlus = 2
+  vm.a       // => 1
+  vm.aDouble // => 2
   ```
 
 - **参考**：[计算属性](../guide/computed.html)
@@ -732,6 +732,8 @@ type: api
 - **类型**：`string`
 
 - **详细**：
+
+
 
   一个字符串模板作为 Vue 实例的标识使用。模板将会 **替换** 挂载的元素。挂载元素的内容都将被忽略，除非模板的内容有分发插槽。
 
